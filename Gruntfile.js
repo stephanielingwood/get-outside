@@ -12,15 +12,15 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-watch');
 
   grunt.initConfig({
-    // watch: {
-    //   source: {
-    //     files: ['app/**/*.sass'],
-    //     tasks: ['sass'],
-    //     options: {
-    //       livereload: true
-    //     }
-    //   }
-    // },
+    watch: {
+      source: {
+        files: ['app/**/*.sass'],
+        tasks: ['sass'],
+        options: {
+          livereload: true
+        }
+      }
+    },
 
     sass: {
       dist: {
