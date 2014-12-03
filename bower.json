@@ -1,0 +1,22 @@
+{
+  "name": "get-outside",
+  "version": "0.0.0",
+  "homepage": "https://github.com/stephanielingwood/get-outside",
+  "authors": [
+    "Stephanie Lingwood <stephanielingwood@gmail.com>"
+  ],
+  "description": "find an outdoor adventure near you!",
+  "main": "server.js",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.1"
+  }
+}
