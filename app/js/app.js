@@ -15,7 +15,6 @@ var getWeather = function(position) {
       data: {"latitude": lat, "longitude": lon},
       success: function(data) {
         var place = parsed(data);
-        // console.log(parsed);
         if (data.hasOwnProperty('name')) {
           $('#commenttext').html('<h2>' +
             'Destination: ' + place.name +
